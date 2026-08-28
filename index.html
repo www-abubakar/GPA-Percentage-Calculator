@@ -7,20 +7,17 @@
   <meta name="description" content="Calculate an approximate GPA from your subjects' percentages, or find your percentage from marks obtained and total — instantly, free, no sign-up." />
   <meta name="keywords" content="GPA calculator, calculate GPA, percentage to GPA, GPA from percentage, percentage calculator, marks percentage calculator, approximate GPA calculator" />
   <meta name="author" content="Calculate GPA" />
-  <!-- Placeholder domain below — replace calculategpa.app with your real
-       domain once deployed (affects SEO canonical URL and social previews). -->
-  <link rel="canonical" href="https://calculategpa.app/" />
+  <meta name="robots" content="index, follow" />
+  <!-- Canonical URL for the GitHub Pages deployment. -->
+  <link rel="canonical" href="https://www-abubakar.github.io/GPA-Percentage-Calculator/" />
 
   <!-- Open Graph -->
   <meta property="og:type" content="website" />
   <meta property="og:title" content="Calculate GPA — Free GPA & Percentage Calculator" />
   <meta property="og:description" content="Calculate an approximate GPA from your subjects' percentages, or find your percentage from marks obtained and total — instantly and free." />
-  <meta property="og:url" content="https://calculategpa.app/" />
+  <meta property="og:url" content="https://www-abubakar.github.io/GPA-Percentage-Calculator/" />
   <meta property="og:site_name" content="Calculate GPA" />
-  <!-- og:image and twitter:image use a relative path here so this project works
-       out of the box on any host. Once deployed, consider switching these to an
-       absolute URL (e.g. https://yourdomain.com/og-image.png) — some platforms
-       (like older link-preview bots) require an absolute path to render previews. -->
+  <!-- Social preview image is kept relative so it works on this GitHub Pages path. -->
   <meta property="og:image" content="og-image.png" />
   <meta property="og:image:width" content="1200" />
   <meta property="og:image:height" content="630" />
@@ -31,8 +28,6 @@
 
   <meta name="theme-color" content="#1B2340" media="(prefers-color-scheme: dark)" />
   <meta name="theme-color" content="#FAFAF7" media="(prefers-color-scheme: light)" />
-
-<meta name="google-site-verification" content="77v5NJNTMeL6PAMxbau5lH5XI0t3CmDGJPpWb3Ew_7k" />
 
   <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' rx='22' fill='%23E8A33D'/%3E%3Ctext x='50' y='68' font-size='54' font-family='Georgia,serif' font-weight='700' fill='%231B2340' text-anchor='middle'%3EG%3C/text%3E%3C/svg%3E" />
 
@@ -47,7 +42,7 @@
     "@context": "https://schema.org",
     "@type": "WebApplication",
     "name": "Calculate GPA",
-    "url": "https://calculategpa.app/",
+    "url": "https://www-abubakar.github.io/GPA-Percentage-Calculator/",
     "applicationCategory": "EducationApplication",
     "operatingSystem": "Any",
     "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" },
@@ -92,7 +87,6 @@
     ]
   }
   </script>
-
 </head>
 <body>
   <a class="skip-link" href="#main">Skip to content</a>
@@ -131,7 +125,7 @@
       <div class="hero-inner">
         <p class="eyebrow">For students, by the numbers</p>
         <h1>Calculate GPA</h1>
-        <p class="hero-sub">Calculate your GPA and percentage quickly and easily.</p>
+        <p class="hero-sub">Calculate your GPA and percentage quickly and easily. Use the free GPA calculator for an approximate GPA from subject percentages, or calculate percentage from marks.</p>
 
         <div class="hero-cards">
           <a href="#gpa-calculator" class="hero-card hero-card--gpa">
@@ -225,11 +219,11 @@
           <form id="pctForm" class="inline-form" novalidate>
             <div class="field">
               <label for="marksObtained">Marks obtained</label>
-              <input type="number" id="marksObtained" name="marksObtained" inputmode="decimal" step="0.01" min="0" placeholder="e.g. 495" required />
+              <input type="number" id="marksObtained" name="marksObtained" inputmode="decimal" step="0.01" min="0" placeholder="e.g. 413" required />
             </div>
             <div class="field">
               <label for="marksTotal">Total marks</label>
-              <input type="number" id="marksTotal" name="marksTotal" inputmode="decimal" step="0.01" min="0.01" placeholder="e.g. 600" required />
+              <input type="number" id="marksTotal" name="marksTotal" inputmode="decimal" step="0.01" min="0.01" placeholder="e.g. 500" required />
             </div>
             <button type="submit" class="btn btn--primary">Calculate Percentage</button>
           </form>
