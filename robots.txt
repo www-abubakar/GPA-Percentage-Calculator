@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://www-abubakar.github.io/GPA-Percentage-Calculator/sitemap.xml
